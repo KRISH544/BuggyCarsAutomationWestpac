@@ -12,5 +12,8 @@
 <h4>2 - Open project in visual studio</h4>
 <h4>2 - Build project</h4>
 <h4>3 - Right click on the tests from solution explorer and click run</h4>
+  
+  
+  <h2>Test plan is attached here too </h2>
 
 
