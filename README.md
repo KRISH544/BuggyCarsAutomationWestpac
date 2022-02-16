@@ -14,6 +14,6 @@
 <h4>3 - Right click on the tests from solution explorer and click run</h4>
   
   
-<h3>Test plan is attached here too (westpac-Testplan.xlsx)</h3>
+<h3>Test plan is attached above (westpac-Testplan.xlsx)</h3>
 
 
