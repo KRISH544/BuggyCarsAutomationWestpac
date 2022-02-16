@@ -37,8 +37,9 @@ namespace BuggyCarsAutomation.Pages
 
         public string GetLoginError()
         {
-            Thread.Sleep(5000);
-            return driver.FindElement(By.CssSelector("span")).Text;
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
+            IWebElement elem = wait.Until(ExpectedConditions.ElementExists(By.CssSelector("span")));
+            return elem.Text;
         }
 
         public void ClickProfile()

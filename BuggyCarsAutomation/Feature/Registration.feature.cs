@@ -132,13 +132,15 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Unsuccessful user registration")]
+        [NUnit.Framework.CategoryAttribute("UI_Test")]
         public virtual void UnsuccessfulUserRegistration()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "UI_Test"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Unsuccessful user registration", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 12
- this.ScenarioInitialize(scenarioInfo);
+#line 13
+this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
             bool isFeatureIgnored = default(bool);
@@ -157,7 +159,7 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 13
+#line 14
  testRunner.Given("BuggyCars registration page is loaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
                 TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
@@ -172,13 +174,13 @@ this.ScenarioInitialize(scenarioInfo);
                             "Automation",
                             "ThisIsAutomation",
                             "ThisIsAutomation"});
-#line 14
+#line 15
  testRunner.When("the information is inputted in", ((string)(null)), table10, "When ");
 #line hidden
-#line 17
+#line 18
  testRunner.Then("click on the Register button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 18
+#line 19
  testRunner.And("registration is unsuccessful message is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }

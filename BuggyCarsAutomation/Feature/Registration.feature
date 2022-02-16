@@ -9,7 +9,8 @@ Scenario: Successful user registration
 	Then click on the Register button
 	And registration is successful message is displayed 
 
-	Scenario: Unsuccessful user registration 
+@UI_Test
+Scenario: Unsuccessful user registration 
 	Given BuggyCars registration page is loaded
 	When the information is inputted in 
 	|      Username       | Firstname   | Lastname        | Password              | PasswordComfirmation  |
