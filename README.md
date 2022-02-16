@@ -14,5 +14,3 @@
 <h4>3 - Right click on the tests from solution explorer and click run</h4>
 
 
-<h5>If errors show up try commenting/uncommenting out the lines 14-20 as screenshot displays (BuggyCarsAutomation.AssemblyInfo.cs). Then rebuilding project</h5>
-(https://user-images.githubusercontent.com/29315702/115504573-446db280-a2cc-11eb-9eed-a6181f0138cb.png)
