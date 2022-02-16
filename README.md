@@ -1,6 +1,6 @@
 # BuggyCarsAutomationWestpac
 
-# Westpac Quality Engineer Application - Krishna Maisuria
+# Application - Krishna Maisuria
 
 
 <h2>Pre requisites</h2>
