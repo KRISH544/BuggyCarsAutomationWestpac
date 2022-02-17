@@ -23,9 +23,8 @@ namespace BuggyCarsAutomation.Pages
             IWebElement lastName = driver.FindElement(By.Id("lastName"));
             IWebElement userPassword = driver.FindElement(By.Id("password"));
             IWebElement confirmUserPassword = driver.FindElement(By.Id("confirmPassword"));
-            int randomUsernameString = RandomString();
 
-            login.SendKeys(randomUsernameString + userDetails.Username);
+            login.SendKeys(RandomInt() + userDetails.Username);
             firstName.SendKeys(userDetails.Firstname);
             lastName.SendKeys(userDetails.Lastname);
             userPassword.SendKeys(userDetails.Password);
@@ -51,7 +50,7 @@ namespace BuggyCarsAutomation.Pages
             return elem.Displayed;
         }
 
-        public int RandomString()
+        public int RandomInt()
         {
             Random r = new Random();
             int min = 1000;
